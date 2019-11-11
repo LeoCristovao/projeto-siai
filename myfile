@@ -1,0 +1,6 @@
+set xrange [0:70]
+set yrange [0:60]
+set zeroaxis 
+plot 'data.dat' with lines
+pause 3
+reread
